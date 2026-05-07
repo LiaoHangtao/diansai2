@@ -1,0 +1,148 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Liao Hangtao, NJUPT, LIC=GMZI6-D8B3D-AR1XW-Q3HPH-1TV5H-VE38U
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  D:\Keil5MDK\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\LIAO\Desktop\ÔÆÌ¨Àý³Ì\diansai2\MDK-ARM\diansai2.uvprojx
+Project File Date:  05/07/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'D:\Keil5MDK\ARM\ARMCLANG\Bin'
+Build target 'diansai2'
+Note: source file '../Core/Src/main.c' - object file renamed from 'diansai2\main.o' to 'diansai2\main_1.o'.
+Note: source file '../Core/Src/gpio.c' - object file renamed from 'diansai2\gpio.o' to 'diansai2\gpio_1.o'.
+Note: source file '../Core/Src/dma.c' - object file renamed from 'diansai2\dma.o' to 'diansai2\dma_1.o'.
+Note: source file '../Core/Src/tim.c' - object file renamed from 'diansai2\tim.o' to 'diansai2\tim_1.o'.
+Note: source file '../Core/Src/usart.c' - object file renamed from 'diansai2\usart.o' to 'diansai2\usart_1.o'.
+Note: source file '../Core/Src/stm32f4xx_it.c' - object file renamed from 'diansai2\stm32f4xx_it.o' to 'diansai2\stm32f4xx_it_1.o'.
+Note: source file '../Core/Src/stm32f4xx_hal_msp.c' - object file renamed from 'diansai2\stm32f4xx_hal_msp.o' to 'diansai2\stm32f4xx_hal_msp_1.o'.
+Note: source file '../Core/Src/system_stm32f4xx.c' - object file renamed from 'diansai2\system_stm32f4xx.o' to 'diansai2\system_stm32f4xx_1.o'.
+compiling usart.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling dma.c...
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling tim.c...
+compiling gpio.c...
+compiling stm32f4xx_hal_flash.c...
+compiling gpio.c...
+compiling usart.c...
+compiling dma.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_it.c...
+compiling tim.c...
+compiling main.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_tim.c...
+linking...
+diansai2\diansai2.axf: Error: L6200E: Symbol SystemInit multiply defined (by system_stm32f4xx_1.o and system_stm32f4xx.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol MemManage_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol UsageFault_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol MX_GPIO_Init multiply defined (by gpio_1.o and gpio.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol PendSV_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol NMI_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol SysTick_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HardFault_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol BusFault_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol SVC_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol DebugMon_Handler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol htim1 multiply defined (by tim_1.o and tim.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol DMA2_Stream2_IRQHandler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol DMA1_Stream5_IRQHandler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol DMA1_Stream6_IRQHandler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol DMA2_Stream7_IRQHandler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol main multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HAL_UART_MspDeInit multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol USART1_IRQHandler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol USART2_IRQHandler multiply defined (by stm32f4xx_it_1.o and stm32f4xx_it.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol MX_USART1_UART_Init multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol huart1 multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol Error_Handler multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol MX_USART2_UART_Init multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol huart2 multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HAL_UART_MspInit multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol hdma_usart1_rx multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol hdma_usart1_tx multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol hdma_usart2_rx multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol hdma_usart2_tx multiply defined (by usart_1.o and usart.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HAL_TIM_MspPostInit multiply defined (by tim_1.o and tim.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol MX_TIM1_Init multiply defined (by tim_1.o and tim.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HAL_TIM_Base_MspInit multiply defined (by tim_1.o and tim.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HAL_TIM_Base_MspDeInit multiply defined (by tim_1.o and tim.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol SystemCoreClockUpdate multiply defined (by system_stm32f4xx_1.o and system_stm32f4xx.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol SystemCoreClock multiply defined (by system_stm32f4xx_1.o and system_stm32f4xx.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol AHBPrescTable multiply defined (by system_stm32f4xx_1.o and system_stm32f4xx.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol APBPrescTable multiply defined (by system_stm32f4xx_1.o and system_stm32f4xx.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HAL_MspInit multiply defined (by stm32f4xx_hal_msp_1.o and stm32f4xx_hal_msp.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol Servo_SetAngle multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol uart_flag multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol HAL_UART_RxCpltCallback multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol SystemClock_Config multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol MX_DMA_Init multiply defined (by dma_1.o and dma.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol servo_angle multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol TransmitData multiply defined (by main_1.o and main.o).
+diansai2\diansai2.axf: Error: L6200E: Symbol ReceiveData multiply defined (by main_1.o and main.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 48 error messages.
+"diansai2\diansai2.axf" - 48 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.1.1.pack
+                Keil::STM32F4xx_DFP@3.1.1
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_diansai2
+  D:/Keil5MDK/ARM/PACK/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
